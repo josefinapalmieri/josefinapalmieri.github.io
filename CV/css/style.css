@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+h1 {
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+    margin: 0.5vw;
+    border: 0.5vw dotted orange;
+    padding: 2vw;
+    font-weight: bold;
+    background-color: lightyellow;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: left;
+}
+
+h3 {
+    color:burlywood;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+  color: orangered;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7vw;
+  font-weight: bold;
+  text-align: left;
+}
+
+h5 {
+  color: orangered;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: left;
+  background-color: lightyellow;
+}
+
+h6 {
+  color: peru;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+  text-align: left;
+  background-color: lightyellow;
+}
+
+p {
+  color: peru;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  text-align: justify;
+}
+
+.foto {
+    float: right;
+    overflow: auto;
+    background-position: top center;
+}
+
+#fotoMarcia {
+  border: 0.4vw solid transparent;
+  border-image: url(https://www.w3schools.com/css/border.png) 40 stretch;
+}
+
+  .opciones {
+    float: left;
+    max-width: 20%;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .opciones a {
+    background-color: lightyellow;
+    font-size: 1.3vw;
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+    padding: 1vw;
+    margin-top: 1vw;
+    display: block;
+    max-width: 100%;
+    overflow: auto; 
+  }
+  
+  .centro {
+    float: left;
+    max-width: 60%;
+    padding: 0vw 2vw 2vw 2vw;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    display: none;
+  }
+
+  .centro a {
+    display: block;
+  }
+  
+  .cuadro {
+    background-color: lightyellow;
+    float: right;
+    max-width: 22%;
+    padding: 0vw 2vw 2vw 2vw;
+    margin-top: 2%;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+     .opciones, .centro, .cuadro {
+      width: 100%;
+      word-break: normal;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .foto {
+     width: 40%;
+   }
+ }
